@@ -349,6 +349,12 @@ p.esperanto-text.closer {
 
 .article-link .time {
   padding: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
   background: #f2f4fa;
   border: solid 2px #fff;
   border-radius: 4px;
@@ -360,10 +366,13 @@ p.esperanto-text.closer {
 .article-link .time .month {
   font-size: 1.7rem;
   text-transform: uppercase;
+  color: #9a919e;
 }
 
 .article-link .time .year {
   font-size: 1.5rem;
+  margin-top: -10px;
+  color: #9a919e;
 }
 
 .article-link .details {
@@ -380,6 +389,8 @@ p.esperanto-text.closer {
 .article-link .details .summary {
   margin-top: 5px;
   font-size: 1.8rem;
+  font-family: "g-s-variable";
+  font-weight: 450;
   line-height: 2.8rem;
   color: #9a919e;
 }
@@ -787,13 +798,13 @@ svg .lo {
   display: inline-flex;
   flex-direction: row;
   align-items: center;
-  gap: 5px;
+  gap: 3px;
   background: #ff80a727;
   border: solid 2px #f87da2;
   color: #f87da2;
   white-space: nowrap;
   padding: 10px 12px;
-  font-size: 18px;
+  font-size: 16px;
   font-family: "g-s-medium";
   font-weight: 600;
   border-radius: 6px;
