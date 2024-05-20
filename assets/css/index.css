@@ -239,6 +239,7 @@ nav a {
 
 .info section .item {
   font-size: 18px;
+  line-height: 1.4;
   display: flex;
   gap: 10px;
   margin-left: 20px;
@@ -863,6 +864,10 @@ svg .lo {
     margin-bottom: 4%;
     min-width: 280px;
     width: 98%;
+  }
+
+  h1 {
+    line-height: 0.95;
   }
 }
 
