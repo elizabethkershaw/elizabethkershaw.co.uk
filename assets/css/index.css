@@ -145,9 +145,9 @@ h2 {
 }
 
 h3 {
-  text-transform: uppercase;
-  font-size: 2.4rem;
-  font-weight: 500;
+  font-family: "g-s-medium";
+  font-size: 2.6rem;
+  font-weight: 650;
   margin-bottom: 20px;
 }
 
