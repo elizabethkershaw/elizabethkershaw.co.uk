@@ -110,16 +110,30 @@ select {
 
 body {
   padding: 30px 50px;
-  font-family: "g-s-variable", apple-system, BlinkMacSystemFont, Roboto,
-    Helvetica Neue, Arial, Noto Sans, sans-serif;
+  font-family:
+    "g-s-variable",
+    apple-system,
+    BlinkMacSystemFont,
+    Roboto,
+    Helvetica Neue,
+    Arial,
+    Noto Sans,
+    sans-serif;
   font-size: 2rem;
   letter-spacing: 0.2px;
   color: #444;
 }
 
 a {
-  font-family: "g-s-medium", apple-system, BlinkMacSystemFont, Roboto,
-    Helvetica Neue, Arial, Noto Sans, sans-serif;
+  font-family:
+    "g-s-medium",
+    apple-system,
+    BlinkMacSystemFont,
+    Roboto,
+    Helvetica Neue,
+    Arial,
+    Noto Sans,
+    sans-serif;
   text-decoration: none;
   color: #ff80a7;
 }
@@ -131,8 +145,15 @@ a {
 }
 
 h1 {
-  font-family: "megan-display", apple-system, BlinkMacSystemFont, Roboto,
-    Helvetica Neue, Arial, Noto Sans, sans-serif;
+  font-family:
+    "megan-display",
+    apple-system,
+    BlinkMacSystemFont,
+    Roboto,
+    Helvetica Neue,
+    Arial,
+    Noto Sans,
+    sans-serif;
   font-size: 5rem;
   font-weight: 500;
 }
@@ -681,7 +702,8 @@ svg .lo {
   fill: #fff;
 }
 
-.dark svg .li {
+.dark svg .li,
+.dark svg .yt {
   fill: #fff;
 }
 
@@ -871,7 +893,7 @@ svg .lo {
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 900px) {
   body {
     padding: 30px 20px;
   }
